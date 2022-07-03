@@ -5,7 +5,7 @@ Foram desenvolvidas funções e seus respectivos testes unitários utilizando Ja
 
 ## Instruções para execução deste projeto
 
-‼️ Para desenvolvimento da solução foi utilizada a linguagem javascript , por isso para execução do projeto é necessário a instalação do **Node js**. [Dowload Nodejs](https://nodejs.org/en/download/)
+‼️ Para desenvolvimento da solução foi utilizada a linguagem javascript , por isso para execução do projeto é necessário a instalação do **Node js**. [Dowload Nodejs](https://nodejs.org/en/download/). Siga as instruções abaixo para executar o projeto:
 
 1. Clone o repositório digitando no terminal:
   - `git clone git@github.com:QueziaFonseca/QA-Challenge.git`
