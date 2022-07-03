@@ -1,14 +1,17 @@
-# Bem vindo ao Repositório solução ao Desafio técnico de Quality Assurance.
-Neste projeto foram desenvolvidas funções e seus respectivos testes unitários utilizando Javascript e Jest.
+# Bem vindo ao Repositório QA-Challenge!
 
-# Instruções para execução deste projeto
+Neste projeto você vai encontrar a solução ao Desafio técnico de Quality Assurance.
+Foram desenvolvidas funções e seus respectivos testes unitários utilizando Javascript e Jest.
+
+## Instruções para execução deste projeto
 
 ‼️ Para desenvolvimento da solução foi utilizada a linguagem javascript , por isso para execução do projeto é necessário a instalação do **Node js**. [Dowload Nodejs](https://nodejs.org/en/download/)
 
 1. Clone o repositório digitando no terminal:
   - `git clone git@github.com:QueziaFonseca/QA-Challenge.git`
-Entre na pasta do repositório que você acabou de clonar:
-  - `cd QA-Challenge`
+  
+  - Entre na pasta do repositório que você acabou de clonar:
+    - `cd QA-Challenge`
 
 2. Instale as dependências digitando no terminal o comando:
   - `npm install`
@@ -21,7 +24,7 @@ Entre na pasta do repositório que você acabou de clonar:
     describe.skip('...', () => {})
     ```
 
-# Requisitos
+## Desafios
  
   1. Função Espelho
   -Escreva testes unitários para uma função que retorna o espelho de um número (ignorando a parte decimal)
