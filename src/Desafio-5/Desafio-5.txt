@@ -1,0 +1,5 @@
+Acredito que a automação de testes é um processo importante na Qualidade de Software. No entanto, a resposta para as perguntas sobre  qual teste automatizar, quantos processos precisam ser automatizados, em qual etapa do desenvovimento de software, deve ser DEPENDE.
+
+Como a automação de testes possui vantagens e desvantagens, as regras de negócio, o contexto da etapa do desenvolvimento, entre outros fatores são determinantes para os acordos que determinam o quando a automação faz sentido para a entrega do software.
+
+Particularmente, a automação é algo que em QA que me motiva a estudar!
