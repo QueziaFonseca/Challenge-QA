@@ -1,0 +1,61 @@
+Para criação dos casos de teste, foi utilizado o modelo de ar-condicionado Split Hi Wall Inverter,
+disponível em: http://cdn.springer.com.br/downloads_docs/d71ad-MU-SHW-Springer-Midea-Inverter_256.08.756-A-05-16--view-.pdf
+
+
+Casos de teste: Funções do controle de um ar-condicionado 
+
+-Pré-condições
+Para todos os testes do controle de um ar-condicionado considera-se:
+DADO que existe um ar-condicionado instalado numa sala;
+DADO que ar-condicionado está funcionando corretamente;
+DADO que o ar-condicionado possui um rececptor de sinais infravermelhos funcionando, garantindo que, quando um botão do controle é apertado, o ar-condicionado executa uma função referente ao botão; 
+DADO que o controle é compatível com o modelo de ar-condicionado;
+DADO que o controle contém pilhas carregadas e está funcionando.
+
+Função ligar
+DADO que eu tenha um ar-condicionado desligado,
+QUANDO eu pressiono a tecla liga/desliga.
+Então o ar-condicionado é ligado.
+
+Função desligar
+DADO que eu tenha ar-condicionado ligado,
+QUANDO eu pressiono a tecla liga/desliga,
+Então o ar-condicionado é desligado.
+
+Função Refrigeração (COOL)
+DADO que eu tenha um ar-condicionado ligado,
+DADO que o ar-condicionado esteja operando do modo ventilação (FAN),
+QUANDO eu pressiono a tecla “Modo”,
+Então o modo Refrigeração é selecionado e o compressor é ligado, inciando o resfriamento da sala.
+
+Função Ventilação (FAN)
+DADO que eu tenha um ar-condicionado ligado,
+QUANDO eu pressiono a tecla “Modo”,
+Então o modo Ventilação é selecionado e o compressor é desligado, inciando a ventilação da sala.
+ 
+Função aumento da temperatura
+1)DADO que eu tenha um ar-condicionado ligado e operando à temperatura de 20°C,
+QUANDO eu pressiono 1 vez a tecla “+” (aumentar a temperatura),
+ENTÃO a temperatura de 21°C é mostrada no display do ar-condicionado e a temperatura do ar da sala é aumentada para o mesmo  valor.
+
+2)DADO que eu tenha um ar-condicionado ligado e operando à temperatura de 28°C (temperatura máxima de operação),
+QUANDO eu pressiono a tecla "+" (aumentar a temperatura),
+ENTÃO o ar-condicionado mantém a temperatura de 28°C exibida no display e não altera a temperatura da sala.
+ 
+Função diminuição da temperatura
+1)DADO que eu tenha um ar-condicionado que esteja ligado e operando à temperatura de 20°C,
+QUANDO eu pressiono 1 vez a tecla “-” (diminuir a temperatura),
+ENTÃO ar-condicionado exibe no display a temperatura  de 19°C e diminui a temperatura da sala para o mesmo  valor.
+
+2)DADO que eu tenha um ar-condicionado que esteja ligado e operando à temperatura de 18°C (temperatura mínima de operação),
+QUANDO eu pressiono a tecla “-” (diminuir a temperatura),
+ENTÃO o ar-condicionado  mantém a temperatura  de 18°C exibida no display e não altera a temperatura da sala.
+
+Função Não Pertube
+1)DADO que eu tenha um ar-condicionado ligado e com a luz LED ligada,
+QUANDO eu pressiono a tecla “não pertube”,
+ENTÃO a luz do display do ar-condicionado é desligada e os sinais sonoros são desativados.
+
+2)DADO que eu tenha um ar-condicionado que esteja ligada e com a luz LED desligada,
+QUANDO eu pressiono a tecla “não pertube”,
+ENTÃO a luz do display do ar-condicionado é ligada e os sinais sonoros são ativados.
