@@ -1,0 +1,15 @@
+{
+  "name": "qa-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "req2.js",
+  "scripts": {
+    "test": "jest tests"
+  },
+  "keywords": [],
+  "author": "Quezia Lima",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.1"
+  }
+}
